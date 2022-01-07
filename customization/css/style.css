@@ -161,3 +161,53 @@ nav .ativo a, nav a:hover{
 .opcao1 a, .opcao2 a, .opcao3 a{
     background-color:#e29705;
 }
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    
+}
+article a{
+text-decoration: none;
+}
+article .noticia_data{
+    display: flex;
+}
+article .data_de_postagem{
+    background-color: #c95823;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+    
+}
+article .quantidade_comentarios{
+    background-color: #fbb240;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+article .imagem_miniatura{
+    margin-top: 30px;
+}
+article .imagem_miniatura img{
+    width: 100%;
+    height: auto;
+}
+article .titulo_da_noticia{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 25px;
+}
+article .resumo_da_noticia{
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
