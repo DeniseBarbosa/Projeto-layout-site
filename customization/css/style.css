@@ -212,11 +212,8 @@ article .resumo_da_noticia{
     margin-bottom: 30px;
 }
 
-footer{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
+
+
 .rodape_menu{
     display: flex;
 
@@ -232,7 +229,7 @@ font-size: 12px;
 
 
 footer{
-    background-color: #1e1e1e;
+    background-color: #005a84;
     display: flex;
     justify-content: center;
 }
@@ -296,7 +293,7 @@ footer .widget_title_text{
     display: flex;
     flex-direction: column;
     font-size: 12px;
-    color: #5c5c5c;
+    color: white;
 }
 .footer_contact{
     display: flex;
@@ -321,12 +318,12 @@ footer .widget_title_text{
 }
 .time_posts{
     font-size: 11px;
-    color: #0079c7;
+    color: white;
 }
 span{
-    color: #FFF;
+    color: white;
 }
 span a{
     text-decoration: none;
-    color: #FFF;
+    color: black;
 }
