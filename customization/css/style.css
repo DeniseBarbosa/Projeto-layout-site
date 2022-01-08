@@ -377,8 +377,14 @@ span a{
     display: none;
     width: 40px;
     height: 40px;
-    background-color: black;
     
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.mm_line{
+    height: 2px;
+    background-color: blue;
 }
 
 
@@ -418,6 +424,10 @@ span a{
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
     }
     header{
         height: auto;
@@ -427,7 +437,9 @@ span a{
     }
 
     .menuMobile{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
 
